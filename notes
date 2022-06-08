@@ -1,0 +1,46 @@
+in this module we learn about CSS positioning etc
+Note: There are 4 display properties for each element,
+1: display-block: takes up the whole width of the screen by default and don't let any other content sit next to it, but you can change the width of a display-block element.
+2: inline: takes up only the width it needs according to it's content & it let other elements sit next to it, but you can not change the width of a inline element.
+3: inline-block: mixture of the display-block and inline elements, it takes up only the width it needs according to it's content by default & it let other elements sit next to it, and you can also change the width of a inline-block element.
+span is used to decorate a piece of text/content and span is a inline element
+
+//lecture # 7 and 8
+positioning of the HTML elements
+relative: in this the elements position themselves according to their actual or previous position or they used to be.
+absolute: in this the element position it self according or relative to its parent agar koi element ka parent nhi hai tou uska default ya sabka default parent puri html body hoti hai.
+fixed: in this the element will be fixed on a single position, even if you scroll or whatever but it will be there.
+
+//lecture #9
+centering elements
+there are many ways you can center a particular element
+1: using text-align: center, this works most of the time with the elements which takes up the whole width etc but it does not work when u change the width of a element and try to center it
+2: using margin: auto, this works even if your elements are changed in width etc
+
+//lecture # 13
+to dynamically change font size u have two options
+1. specify the font size in percentage.
+2. or specify the font size in em.
+note: 1em = 16px = 100%
+
+if you have specified some font size in the body property, then it will be inherited or may be added to other tags
+if overall body font size in 2em and you also specify a element to have 3 em size then that element's total font size will be 3+2= 5 em.
+
+static size: px
+dynamic size: em and %
+
+to avoid that inheriting problem you use 'rem', so it will avoid all the previous values and just give it that rem value just like static values are applied.
+rem is called root em.
+
+rem is recommanded as its least error prone and it will be easy to debug and shit
+
+//last lecture of this module
+have to study more about float concept
+but by setting and tweaking float properties you can make two things sit beside each other like a image sitting with some text. reflect more on that on the given example in the code
+
+//use clear and direction to avoid wrapping your text around some image that you used using float property
+clear property matlab vo direction tumhari clear kardegi jo tum mention karoge usme
+clear can be thought of as anti float
+
+use float only when you need it
+the main purpose of float is to wrapping text around some other context etc

@@ -1,0 +1,153 @@
+/* tags */
+body {
+  margin: 0;
+  text-align: center;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-top-width: thick;
+  width: 5%;
+  color: #464E2E;
+  margin: 50px auto 50px auto;
+  clear: both;
+
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 5.62rem;
+  margin-top: 50px;
+  color: #362706;
+
+}
+
+h2 {
+  font-family: 'Arimo', sans-serif;
+
+  font-size: 2.5rem;
+
+  color: #362706;
+
+}
+
+h3 {
+  font-family: 'Arimo', sans-serif;
+  color: #464E2E;
+
+}
+
+a {
+  color: #464E2E;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: white;
+}
+
+p {
+  line-height: 2;
+}
+
+/* classes */
+.top-container {
+  background-color: #E9E5D6;
+  padding-top: 80px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.bottom-container {
+  padding: 30px;
+  margin-top: 30px;
+  background-color: #E9E5D6;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 250px;
+
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+.flutter {
+  text-decoration: underline;
+}
+
+.flutter-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.html {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.dev {
+  font-weight: normal;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile {
+  margin-bottom: 40px;
+}
+
+.footer-link {
+  margin: auto 20px auto 20px;
+}
+
+.copyright {
+  margin: 20px 0;
+  font-size: 0.6em;
+  color: grey;
+}
+
+.myintro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-me {
+  width: 30%;
+  margin: 0 auto 0 auto;
+}
+
+
+/* button */
+.btn {
+  margin-top: 20px;
+  background: #362706;
+  background-image: -webkit-linear-gradient(top, #362706, #6C6C6C);
+  background-image: -moz-linear-gradient(top, #362706, #6C6C6C);
+  background-image: -ms-linear-gradient(top, #362706, #6C6C6C);
+  background-image: -o-linear-gradient(top, #362706, #6C6C6C);
+  background-image: -webkit-gradient(to bottom, #362706, #6C6C6C);
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+  color: #F9F8BE;
+  font-family: Brush Script MT;
+  padding: 14px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
